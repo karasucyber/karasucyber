@@ -1,1 +1,1 @@
-![aquillae777](profile-3d-contrib/profile-night-view.svg)
+![aquillae777](profile-3d-contrib/profile-night-rainbow.svg)
