@@ -1,6 +1,5 @@
 ## I'm a Junior Dev look at my projects 🖐️
 
-## aquillae777.vercel.app
 
 ## operational system
 
