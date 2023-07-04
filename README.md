@@ -1,5 +1,3 @@
-## I'm a Junior Dev look at my projects 🖐️
-
 
 ## operational system
 
