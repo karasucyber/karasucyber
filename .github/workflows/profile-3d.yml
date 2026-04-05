@@ -6,29 +6,31 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # ESSENCIAL: Dá permissão para o robô salvar as imagens
+  contents: write # ESSENCIAL: Permite salvar as imagens no repositório
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Remove o aviso de erro do Node 20
     
     steps:
       - uses: actions/checkout@v4
       
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          # Alterado para GH_TOKEN para pegar seus commits PRIVADOS
+          # Usa o seu Token Classic com permissão de 'repo'
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          
+          # CONFIGURAÇÕES DE POTÊNCIA:
+          MAX_REPOS: 1000       # Varre até 1000 repositórios (incluindo os da SVV)
+          SET_ALL_TIME: true    # Pega TODO o seu histórico (não só o último ano)
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "generated 3D profile"; then
+          if git commit -m "generated 3D profile with all-time stats"; then
             git push
           fi
