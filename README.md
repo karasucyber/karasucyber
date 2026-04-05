@@ -41,7 +41,7 @@ Sou Desenvolvedor Full Stack especializado no ecossistema **.NET (C#)** e apaixo
 ### 📈 Estatísticas e Atividades
 
 ![aquillae777](profile-3d-contrib/profile-night-view.svg)
-
+![](profile-3d-contrib/profile-night-view.svg)
 ---
 
 ### 📫 Conecte-se comigo
