@@ -1,6 +1,6 @@
 # Olá, eu sou o Kauã Marques 👋
 
-Desenvolvedor Full Stack especializado no ecossistema **.NET (C#)** e apaixonado por **Arquitetura de Sistemas** e **Inteligência Artificial**. Tenho experiência sólida em modernização de sistemas legados e na construção de APIs escaláveis para grandes players do mercado financeiro e de seguros.
+Sou Desenvolvedor Full Stack especializado no ecossistema **.NET (C#)** e apaixonado por **Arquitetura de Sistemas** e **Inteligência Artificial**. Tenho experiência sólida em modernização de sistemas legados e na construção de APIs escaláveis para grandes players do mercado financeiro e de seguros.
 
 ---
 
@@ -39,7 +39,6 @@ Desenvolvedor Full Stack especializado no ecossistema **.NET (C#)** e apaixonado
 ---
 
 ### 📈 Estatísticas e Atividades
-![kaua-stats](https://github-readme-stats.vercel.app/api?username=karasucyber&show_icons=true&theme=tokyonight)
 
 ![aquillae777](profile-3d-contrib/profile-night-view.svg)
 
